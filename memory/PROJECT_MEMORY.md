@@ -20,7 +20,7 @@ Updated: 2026-11-06
 - Rust tooling is absent from the current shell (`rustc: command not found`, `cargo: command not found`). No Rust project has been initialized yet.
 - Coursework `.vpp`/`.vpd` artifacts exist outside this workspace; only file-type metadata was checked. Names, locations, and contents are intentionally omitted from this public repo; nothing was copied.
 - Local Visual Paradigm support data was excluded from the workspace inventory; preferences, logs, license data, and caches were not read.
-- GitHub repo `https://github.com/ipoyyyiii/ParadigmCraft` is public. The user confirmed public publication; local `main` is initialized and `origin` configured.
+- GitHub repo `https://github.com/ipoyyyiii/ParadigmCraft` is public. The sanitized initial workspace was pushed to `main` as commit `47dea57`; local `main` tracks `origin/main`.
 
 ## Decisions and boundaries
 
@@ -36,6 +36,7 @@ Updated: 2026-11-06
 - Added a scoped continuation rule to `~/.config/opencode/AGENTS.md` so future ParadigmCraft chats load project goals/memory and keep them current.
 - Added a README and `.gitignore`, initialized local Git on `main`, and configured the provided GitHub URL as `origin`.
 - Removed host-specific coursework names/paths from the public project memory before the first push.
+- Published the initial project files and metadata-only inventory to the public GitHub repo; no app contents or coursework files were included.
 
 ## Next
 
@@ -47,3 +48,4 @@ Updated: 2026-11-06
 
 - 2026-11-06: Initial workspace and inventory created. Recorded app bundle metadata and JAR archive metadata only; no proprietary files copied, no support/license contents read, and no coursework project contents inspected.
 - 2026-11-06: Set up local Git and origin. User confirmed the GitHub repo should remain public; reviewed the initial files and removed local coursework names/paths before publishing.
+- 2026-11-06: Published the initial sanitized workspace to `main`; verified the remote commit and file listing.

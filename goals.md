@@ -17,6 +17,7 @@
 - [x] Inventory the installed Visual Paradigm 18.1 app bundle by path and metadata; do not copy its contents.
 - [x] Create a local Git repository, add project ignore rules, and configure the provided GitHub remote.
 - [x] Confirm the public repository and review/sanitize the initial publication contents.
+- [x] Publish the initial workspace and metadata-only inventory to the public GitHub repository.
 - [ ] Confirm the exact product edition/modules and map the user-visible feature surface.
 - [ ] Establish a clean-room evidence plan and a parity matrix (feature, observed behavior, expected result, test).
 - [ ] Set up and verify the Rust toolchain; initialize the smallest useful Rust project structure.
