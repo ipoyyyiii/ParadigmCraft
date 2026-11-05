@@ -1,0 +1,22 @@
+# Rust build output
+/target/
+
+# Local scratch, generated analysis output, and private data
+/scratch/
+/local-data/
+/analysis-output/
+*.log
+*.dmp
+
+# Visual Paradigm project files may contain coursework or private models.
+# Synthetic test fixtures should be explicitly allowlisted when created.
+*.vpp
+*.vpd
+*.vpm
+*.vps
+
+# Local machine files and secrets
+**/.DS_Store
+.env
+.env.*
+!.env.example
